@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+
+    padding: 15px;
+    background-color: black;
+}
+
+.link {
+    color: white;
+    padding: 23px;
+    margin: 14px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.midsection {
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.human {
+    padding: 14px;
+    margin: auto;
+    font-size: larger;
+}
+
+
+.lies {
+    padding: 2px;
+    margin: auto;
+
+}
+
+.slogan {
+    display: contents;
+    align-items: center;
+}
+
+.shortage {
+    font-size: larger;
+    padding: 20px;
+}
+
+.match {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-decoration-color: blue;
+    font-size: larger;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 25px;
+}
+
+.end h3 {
+    color: white;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 35px;
+}
+
+th,
+td {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 7px;
+}
+
+.align {
+    text-align: center;
+}
+
+.tab {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.rare {
+    padding: 20px;
+    font-size: large;
+}
